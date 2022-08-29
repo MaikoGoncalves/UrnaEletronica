@@ -23,7 +23,7 @@ body {
 }
 
 #capa{
-    background-color:var(--field-background-color);
+    background-color: var(--field-background-color);
     color: var(--primary-color);
     text-transform: uppercase;
     padding: 0px 50px;  
@@ -33,9 +33,11 @@ body {
 }
 
 #conteudo {
+    
     border: 0px solid #f00;
     position: relative;
     margin-top: -100px;
+   
 }
 
 #tela {
@@ -227,8 +229,8 @@ body {
     top: 140px;
     width: 150px;
     height: 150px;
-    outline: 20px solid var(--highlight-color);
-    border: 5px solid var(--primary-color);
+    outline: 20px solid #fcff41;
+    border: 5px solid #0fcf29;
     box-sizing: initial;
 }
 
@@ -236,8 +238,7 @@ body {
    width: 150px;
    height: 150px;
    object-fit: cover;
-   border: 10px solid var(--highlight-color);
-
+   border: 10px solid #fcff41;
 }
 
 #lula{
@@ -256,5 +257,73 @@ body {
    height: 150px;
    object-fit: cover;
    border: 10px solid black;
+}
+
+#ciro{
+    position: absolute;
+    left: 980px;
+    top: 400px;
+    width: 150px;
+    height: 150px;
+    outline: 20px solid #fcff41;
+    border: 5px solid #0fcf29;
+    box-sizing: initial;
+}
+
+#ciro img{
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+   border: 10px solid #fcff41;
+}
+
+#simone{
+    position: absolute;
+    left: 1220px;
+    top: 400px;
+    width: 150px;
+    height: 150px;
+    outline: 20px solid black;
+    border: 5px solid red;
+    box-sizing: initial;
+}
+
+#simone img{
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+   border: 10px solid black;
+}
+
+#candidato{
+    position: absolute;
+    left: 70px;
+    top: 330px;   
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+#visor h1{
+    position: absolute;
+    left: 70px;
+    top: 350px;
+    text-transform: uppercase;
+    border: 5px solid black;
+    margin-left: 75px;
+    padding: 8px;   
+}
+
+.caixa-dos-inputs{
+    position: absolute;
+    left: 100px;
+    top: 470px;  
+}
+
+.input-do-numero{
+    border: 3px solid black;  
+    
+   
 
 }
+
+
