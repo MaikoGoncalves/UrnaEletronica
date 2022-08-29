@@ -1,0 +1,260 @@
+/*** VARIABLES & THEMES ***/
+
+:root {
+    --primary-color: #0fcf29;
+    --primary-color-contrast: #ffffff;
+    --field-background-color: #000;
+    --highlight-color: #fcff41;
+  }  
+.light-theme {
+    --primary-color: #0fcf29;
+    --primary-color-contrast: #ffffff;
+    --field-background-color: #000;   
+}
+.dark-theme {
+    --primary-color: #cf0f42;
+    --primary-color-contrast: #ffffff;
+    --field-background-color: #000;
+}
+
+body {
+    font: 80% "arial", sans-serif;
+    margin: 0px;
+}
+
+#capa{
+    background-color:var(--field-background-color);
+    color: var(--primary-color);
+    text-transform: uppercase;
+    padding: 0px 50px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+}
+
+#conteudo {
+    border: 0px solid #f00;
+    position: relative;
+    margin-top: -100px;
+}
+
+#tela {
+    position: absolute;
+    left: 0px;
+    top: 105px;
+    width: 642px;
+    height: 603px;
+}
+
+#topo {
+    position: absolute;
+    left: 642px;
+    top: 102px;
+    width: 274px;
+    height: 261px;
+}
+
+#faixaDir {
+    position: absolute;
+    left: 916px;
+    top: 137px;
+    width: 55px;
+    height: 512px;
+}
+
+#ladoEsqTec {
+    position: absolute;
+    left: 642px;
+    top: 363px;
+    width: 27px;
+    height: 227px;
+}
+
+#habilitaNumeros {
+    display: none;
+}
+
+#habilitaCorrige {
+    display: none;
+}
+
+#n_1 {
+    position: absolute;
+    left: 669px;
+    top: 363px;
+    width: 73px;
+    height: 58px;
+}
+
+#n_2 {
+    position: absolute;
+    left: 742px;
+    top: 363px;
+    width: 68px;
+    height: 58px;
+}
+
+#n_3 {
+    position: absolute;
+    left: 810px;
+    top: 363px;
+    width: 69px;
+    height: 58px;
+}
+
+#ladoDirTec {
+    position: absolute;
+    left: 879px;
+    top: 363px;
+    width: 37px;
+    height: 216px;
+}
+
+#n_4 {
+    position: absolute;
+    left: 669px;
+    top: 421px;
+    width: 73px;
+    height: 60px;
+}
+
+#n_5 {
+    position: absolute;
+    left: 742px;
+    top: 421px;
+    width: 68px;
+    height: 60px;
+}
+
+#n_6 {
+    position: absolute;
+    left: 810px;
+    top: 421px;
+    width: 69px;
+    height: 60px;
+}
+
+#n_7 {
+    position: absolute;
+    left: 669px;
+    top: 481px;
+    width: 73px;
+    height: 58px;
+}
+
+#n_8 {
+    position: absolute;
+    left: 742px;
+    top: 481px;
+    width: 68px;
+    height: 58px;
+}
+
+#n_9 {
+    position: absolute;
+    left: 810px;
+    top: 481px;
+    width: 69px;
+    height: 58px;
+}
+
+#n_0 {
+    position: absolute;
+    left: 742px;
+    top: 539px;
+    width: 80px;
+    height: 51px;
+}
+
+#confirma {
+    position: absolute;
+    left: 822px;
+    top: 579px;
+    width: 94px;
+    height: 70px;
+}
+
+#branco {
+    position: absolute;
+    left: 642px;
+    top: 590px;
+    width: 90px;
+    height: 59px;
+}
+
+#corrige {
+    position: absolute;
+    left: 732px;
+    top: 590px;
+    width: 90px;
+    height: 59px;
+}
+#ptabaixo7 {
+    position: absolute;
+    left: 669px;
+    top: 539px;
+    width: 73px;
+    height: 51px;
+}
+
+#ptabaixo9 {
+    position: absolute;
+    left: 822px;
+    top: 539px;
+    width: 57px;
+    height: 40px;
+}
+
+#abaixoTec {
+    position: absolute;
+    left: 642px;
+    top: 649px;
+    width: 324px;
+    height: 40px;
+}
+
+#bateria {
+    position: absolute;
+    left: 550px;
+    top: 314px;
+    width: 40px;
+    height: 30px;
+}
+
+#bolsonario{
+    position: absolute;
+    left: 980px;
+    top: 140px;
+    width: 150px;
+    height: 150px;
+    outline: 20px solid var(--highlight-color);
+    border: 5px solid var(--primary-color);
+    box-sizing: initial;
+}
+
+#bolsonario img{
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+   border: 10px solid var(--highlight-color);
+
+}
+
+#lula{
+    position: absolute;
+    left: 1220px;
+    top: 140px;
+    width: 150px;
+    height: 150px;
+    outline: 20px solid black;
+    border: 5px solid red;
+    box-sizing: initial;
+}
+
+#lula img{
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+   border: 10px solid black;
+
+}
